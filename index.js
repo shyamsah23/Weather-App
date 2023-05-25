@@ -101,7 +101,7 @@ function renderWeatherInfo(weatherInfo)
 
     if(weatherInfo?.name==undefined)
     {
-        alert("InValid User Name Please Enter valid User Name");
+        alert("Invalid City Name. Please Enter valid City Name");
         return;
     }
     cityName.innerText=weatherInfo?.name;
